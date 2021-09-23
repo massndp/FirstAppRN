@@ -8,7 +8,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import mackbook from './macbook.jpg';
+import MateriFlexBox from './MateriFlexBox';
 import SampleComponent from './SampleComponent';
 import StylingReactNativeComponent from './StylingReactNativeComponent';
 
@@ -16,8 +16,9 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
-        <StylingReactNativeComponent />
+        {/* <SampleComponent />
+        <StylingReactNativeComponent /> */}
+        <MateriFlexBox />
       </ScrollView>
     </View>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import {
@@ -15,6 +16,7 @@ const StylingReactNativeComponent = () => {
     <View>
       <Text style={styles.text}>Styling Component</Text>
       <View
+        // eslint-disable-next-line react-native/no-inline-styles
         style={{
           width: 100,
           height: 100,
