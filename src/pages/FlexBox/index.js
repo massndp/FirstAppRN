@@ -1,9 +1,9 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, { Component } from 'react';
 import { Image, Text, View } from 'react-native';
-import photoProfile from './ori.jpg';
+import photoProfile from '../../assets/image/ori.jpg';
 
-class MateriFlexBox extends Component {
+class FlexBox extends Component {
   render() {
     return (
       <View>
@@ -60,4 +60,4 @@ class MateriFlexBox extends Component {
   }
 }
 
-export default MateriFlexBox;
+export default FlexBox;

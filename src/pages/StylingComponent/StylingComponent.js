@@ -9,9 +9,9 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import mackbook from './macbook.jpg';
+import mackbook from '../../assets/image/macbook.jpg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={styles.text}>Styling Component</Text>
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StylingReactNativeComponent;
+export default StylingComponent;
