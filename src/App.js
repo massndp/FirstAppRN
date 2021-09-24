@@ -12,15 +12,17 @@ import SampleComponent from './pages/SampleComponent';
 import StylingComponent from './pages/StylingComponent/StylingComponent';
 import FlexBox from './pages/FlexBox/';
 import Position from './pages/Position/';
+import PropsDimanis from './pages/PropsDinamis';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
-        <StylingComponent />
-        <FlexBox />
-        <Position />
+        {/* <SampleComponent /> */}
+        {/* <StylingComponent /> */}
+        {/* <FlexBox /> */}
+        {/* <Position /> */}
+        <PropsDimanis />
       </ScrollView>
     </View>
   );
