@@ -13,6 +13,7 @@ import StylingComponent from './pages/StylingComponent/StylingComponent';
 import FlexBox from './pages/FlexBox/';
 import Position from './pages/Position/';
 import PropsDimanis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
         {/* <StylingComponent /> */}
         {/* <FlexBox /> */}
         {/* <Position /> */}
-        <PropsDimanis />
+        {/* <PropsDimanis /> */}
+        <StateDinamis />
       </ScrollView>
     </View>
   );
